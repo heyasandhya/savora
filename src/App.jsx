@@ -6,6 +6,7 @@ import Stats from './sections/Stats.jsx'
 import Dishes from './sections/Dishes.jsx'
 import Features from './sections/Features.jsx'
 import BookingProcess from './sections/BookingProcess.jsx'
+import Timing from './sections/Timing.jsx'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Dishes/>
       <Features/>
       <BookingProcess/>
+      <Timing />
     </>
   )
 }
