@@ -5,6 +5,7 @@ import About from './sections/About.jsx'
 import Stats from './sections/Stats.jsx'
 import Dishes from './sections/Dishes.jsx'
 import Features from './sections/Features.jsx'
+import BookingProcess from './sections/BookingProcess.jsx'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Stats/>
       <Dishes/>
       <Features/>
+      <BookingProcess/>
     </>
   )
 }
