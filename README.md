@@ -1,16 +1,96 @@
-# React + Vite
+# Savor — Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and fully responsive restaurant website built with **React.js** and **Tailwind CSS**. Savor focuses on a clean, elegant interface with reusable components, smooth animations, responsive layouts, and an engaging restaurant experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Modern and responsive restaurant landing page
+* Responsive navigation bar
+* Hero section with animated content
+* Restaurant menu section
+* Reusable React components
+* Smooth UI animations
+* Responsive images and layouts
+* Clean and organized project structure
+* Mobile, tablet, and desktop support
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js** — Frontend library
+* **Vite** — Development and build tool
+* **Tailwind CSS** — Styling and responsive design
+* **Motion** — UI animations
+* **JavaScript (ES6+)** — Application logic
 
-## Expanding the Oxlint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+src/
+├── assets/
+├── components/
+├── data/
+├── sections/
+├── App.jsx
+└── main.jsx
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/savor.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd savor
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available on the local development server provided by Vite.
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 📱 Responsive Design
+
+Savor is designed to provide a consistent experience across:
+
+* 📱 Mobile devices
+* 📲 Tablets
+* 💻 Laptops
+* 🖥️ Desktop screens
+
+## 🎯 Purpose
+
+This project was built as a practical **frontend development project** to strengthen skills in React, Tailwind CSS, responsive UI design, component-based architecture, and modern web development.
+
+## 🌐 Deployment
+
+The project can be deployed using modern hosting platforms such as **Vercel, Netlify, or Hostinger**.
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
